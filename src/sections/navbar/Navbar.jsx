@@ -1,6 +1,8 @@
 import Logo from '../../assets/logo.jpg'
 import data from './data'
 import {IoIosColorPalette} from 'react-icons/io'
+import ReactSwitch from 'react-switch'
+import App from '../../App'
 import './navbar.css'
 
 const Navbar = () => {
@@ -17,7 +19,10 @@ const Navbar = () => {
                     })
                 }
             </ul>
-            <button id='theme__icon'> <IoIosColorPalette/></button>
+            <div className="switch">
+           <small className='small'><i>Joshua Opote</i></small >
+            </div>
+            
         </div>
     </nav>
   )

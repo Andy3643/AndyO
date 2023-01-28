@@ -18,7 +18,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
           <div className='Portfolio__header'>
               <h2>My Work</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In suscipit voluptas numquam.</p>
+              <p>I design for the user. Simple, elegant, and precise, making users return to your site.</p>
           </div>
           <div className="header__buttons">
             <button 
@@ -47,8 +47,8 @@ const Portfolio = () => {
                     <h4 className='header-title'>{item.title}</h4>
                     <p>{item.desc}</p>
                     <div className='portfolio__card-btn'>
-                      <a href="" className='btn primary sm'>Demo</a>
-                      <a href="" className='btn light sm' >Github</a>
+                      <a href={item.demo} target='_blank' className='btn primary sm'>Demo</a>
+                      <a href={item.githublink} target='_blank' className='btn light sm' >Github</a>
                
                     </div>
                   </Card>

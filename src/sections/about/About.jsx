@@ -1,4 +1,4 @@
-import AboutImage from  '../../assets/logo.jpg'
+import AboutImage from  '../../assets/bnw.jpg'
 import {HiDownload} from 'react-icons/hi'
 // import CV from '../../assets/.pdf'
 import Card from '../../components/Card'
@@ -30,8 +30,9 @@ const About = () => {
                      })
                 }
               </div>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-              <p>Lorem ipsum dolor sit amet.</p>
+              <p>I enjoy turning complex problems into simple and intuitive designs. Give me a description of what your business wants, and I will think of a design to solve that. I'm passionate about user
+                 interaction and making client satisfaction the basis of my designs.</p>
+              {/* <p>I enjoy turning complex problems into simple and intuitive designs. Give me a description of what your business wants, and I will think of a design to solve that. I'm passionate about user interaction and making my client satisfaction the basis of my designs.</p> */}
                    <a href='dsdffd' className='btn primary'  download> Download CV <HiDownload/></a>
           </div>
       </div>

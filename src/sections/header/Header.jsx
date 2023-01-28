@@ -1,4 +1,4 @@
-import Logo from '../../assets/logo.jpg'
+import Logo from '../../assets/intro.jpg'
 import data from './data'
 import './header.css'
 
@@ -29,7 +29,8 @@ const Header = () => {
                 <img src={Logo} alt="Opote potrait" />
               </div>
               <h3>Andy Opote</h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui labore consequatur rem!</p>
+              <p>Hello. Thanks for visiting! I am a Web Designer passionate about his craft. I create interactive UI designs for both the front and back end.
+                 I'm also a Graphic Designer. Contact me to meet your business needs</p>
               <div className="header__cta">
          
         

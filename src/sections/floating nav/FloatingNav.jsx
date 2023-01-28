@@ -12,7 +12,8 @@ const FloatingNav = () => {
       <a href="#"><AiOutlineHome/></a>
       <a href="#about"><AiOutlineUser/></a>
       <a href="#portfolio"><BiBook/></a>
-      <button><BsWhatsapp/></button>
+      <a target='_blank' href="https://wa.me/+254790552354"><button ><BsWhatsapp/></button></a>
+     
       </div>
    
   )

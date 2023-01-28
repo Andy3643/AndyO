@@ -14,9 +14,9 @@ const FAQs = () => {
         <h2>My Contacts</h2>
         <p>Hey there! Let me work on your project</p>
         <div className="icons">
-        <a href="" className='whatsaap'><RiWhatsappFill/></a>
-        <a href="" className='mail'><AiOutlineMail/></a>
-        <a href="" className='twitter'><AiFillTwitterCircle/></a>
+        <a href="https://wa.me/+254790552354" target='_blank' className='whatsaap'><RiWhatsappFill/></a>
+        <a href="" target='_blank' className='mail'><AiOutlineMail/></a>
+        <a href="https://twitter.com/AndyOpote?t=ZXDYqVo3rUAo-fQ06voX5w&s=09" target='_blank' className='twitter'><AiFillTwitterCircle/></a>
 
         </div>
         </div>

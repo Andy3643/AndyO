@@ -1,4 +1,4 @@
-import React from 'react'
+
 import FloatingNav from './sections/floating nav/FloatingNav'
 import Footer from './sections/footer/Footer'
 import Navbar from './sections/navbar/Navbar'
@@ -9,8 +9,10 @@ import Portfolio from './sections/portfolio/Portfolio'
 import Services from './sections/services/Services'
 import Testimonials from './sections/testimonials/Testimonials'
 
+
 const App = () => {
-  return (
+      return (
+    
     <main>
       <Navbar/>
       <Header/>
@@ -28,6 +30,7 @@ const App = () => {
 
 
     </main>
+  
   )
 }
 
