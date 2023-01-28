@@ -1,0 +1,12 @@
+footer{
+    background: var(--color-primary);
+
+}
+.footer-container{
+    color: white;
+    padding: 4rem;
+    text-align: center;
+}
+.footer-t{
+    color: white;
+}

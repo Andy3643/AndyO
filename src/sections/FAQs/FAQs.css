@@ -1,0 +1,52 @@
+.contacts-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem 4rem;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}  
+.whatsaap{
+    color: green;
+    font-size: 6rem;
+}
+.mail{
+    color: red;
+    font-size: 6rem;
+}
+.twitter{
+    color:#00acee;
+    font-size: 6rem;
+}
+/* MEDIA QUERIES (tablet) */
+@media screen and (max-width: 900px) {
+
+}
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+    .contacts-container{
+        display: grid;
+    }  
+    .icons{
+        display: grid;
+        gap: 0.5rem;
+        font-size: 3rem;
+    }
+    .whatsaap{
+        color: green;
+        font-size: 3rem;
+    }
+    .mail{
+        color: red;
+        font-size: 3rem;
+    }
+    .twitter{
+        color:#00acee;
+        font-size: 3rem;
+    }
+}

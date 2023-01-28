@@ -1,0 +1,71 @@
+.portfolio__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Portfolio__header{
+    text-align: center;
+}
+.header__buttons{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.portfolio_cta:active{
+    background-color: red;
+}
+.portfolio_cta{
+    background: white;
+    border-radius: 2rem;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+.portfolio_cta:hover{
+    background: var(--color-primary);
+}
+
+.display-portfolio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+.display-portfolio img{
+    width: 100%;
+}
+.portfolio__card-btn{
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+.header__buttons-phone{
+    display: none;
+}
+.header-title{
+    margin-top: 1rem;
+}
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+    .display-portfolio{
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .header__buttons-phone{
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    } 
+    .header__buttons{
+        display: none;
+    }
+    #phonebtn-2{
+        padding: 1rem;
+        text-align: center;
+    }
+    #phonebtn-2:hover{
+        color: white;
+    }
+}
