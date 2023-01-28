@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AndyO/static/css/main.68a3bdcf.css",
+    "main.js": "/AndyO/static/js/main.a7a1838d.js",
+    "static/media/dude.png": "/AndyO/static/media/dude.acf167e84ce3509bf264.png",
+    "static/media/showmax.png": "/AndyO/static/media/showmax.6b8672e3076952c055fd.png",
+    "static/media/logo.jpg": "/AndyO/static/media/logo.6198bbc5ed30df540ccf.jpg",
+    "index.html": "/AndyO/index.html",
+    "main.68a3bdcf.css.map": "/AndyO/static/css/main.68a3bdcf.css.map",
+    "main.a7a1838d.js.map": "/AndyO/static/js/main.a7a1838d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68a3bdcf.css",
+    "static/js/main.a7a1838d.js"
+  ]
+}
