@@ -2,6 +2,8 @@ const showmax = require('../../assets/showmax.png')
 const dude= require('../../assets/dude.png')
 const beaucoup = require('../../assets/beaucoup.png')
 const chuma = require('../../assets/chuma.png')
+const phabias = require('../../assets/phabias.png')
+
  
  const projects = [
     {
@@ -13,19 +15,15 @@ const chuma = require('../../assets/chuma.png')
         githublink:'https://github.com/Andy3643/Beaucop-product',category:'frontend'
     },
     {
+        pic:phabias,title:'Phabias Portfolio', desc:'Phabias is a freelance Photographer and Home internet provider in Nairobi. Check out his portfolio built in React.',demo: 'https://andy3643.github.io/phabias-photography/',
+        githublink:'https://github.com/Andy3643/phabias-photography',category:'frontend'
+    },
+    {
         pic:showmax,title:' ShowMax clone', desc:'This app consumes showMax API. It helps you follow your favourite shows',demo: 'jdfgdghgggh',
         githublink:'dssgsdgfjhjhjsjh',category:'frontend'
     },
     {
         pic:dude,title:'Dude Portfilio', desc:'A portfolio website for Dude Elvis still in production',demo: 'jdfgdghgggh',
-        githublink:'dssgsdgfjhjhjsjh',category:'backend'
-    },
-    {
-        pic:dude,title:'Dude Portfilio', desc:'A portfolio website for Dude Elvis still in production',demo: 'jdfgdghgggh',
-        githublink:'dssgsdgfjhjhjsjh',category:'ux'
-    },
-    {
-        pic:showmax,title:' ShowMax clone', desc:'This app consumes showMax API. It helps you follow your favourite shows',demo: 'jdfgdghgggh',
         githublink:'dssgsdgfjhjhjsjh',category:'backend'
     }
 
