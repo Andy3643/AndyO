@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AndyO/static/css/main.669154b7.css",
-    "main.js": "/AndyO/static/js/main.e18327ac.js",
+    "main.js": "/AndyO/static/js/main.87d497f0.js",
     "static/media/Hotelhub.jpg": "/AndyO/static/media/Hotelhub.475a833868c07c2c8539.jpg",
     "static/media/Moringaproject.jpg": "/AndyO/static/media/Moringaproject.feb3115204ebf5774810.jpg",
     "static/media/dude.png": "/AndyO/static/media/dude.acf167e84ce3509bf264.png",
@@ -16,10 +16,10 @@
     "static/media/logo.jpg": "/AndyO/static/media/logo.8e889d1a5ac3b0cbddc0.jpg",
     "index.html": "/AndyO/index.html",
     "main.669154b7.css.map": "/AndyO/static/css/main.669154b7.css.map",
-    "main.e18327ac.js.map": "/AndyO/static/js/main.e18327ac.js.map"
+    "main.87d497f0.js.map": "/AndyO/static/js/main.87d497f0.js.map"
   },
   "entrypoints": [
     "static/css/main.669154b7.css",
-    "static/js/main.e18327ac.js"
+    "static/js/main.87d497f0.js"
   ]
 }
