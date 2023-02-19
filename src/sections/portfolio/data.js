@@ -3,8 +3,13 @@ const dude= require('../../assets/dude.png')
 const beaucoup = require('../../assets/beaucoup.png')
 const chuma = require('../../assets/chuma.png')
 const phabias = require('../../assets/phabias.png')
+const hotelhub = require('../../assets/Hotelhub.jpg')
+const beauty = require('../../assets/Beaucoup.jpg')
+const moringa = require('../../assets/Moringaproject.jpg')
 
- 
+
+
+
  const projects = [
     {
         pic:chuma,title:'Chuma Gym', desc:'We all need to exercise to keep our bodies healthy. Chuma is a react app that displays one of the best gyms in town.',demo: 'https://andy3643.github.io/chuma-react/',
@@ -23,8 +28,20 @@ const phabias = require('../../assets/phabias.png')
         githublink:'dssgsdgfjhjhjsjh',category:'frontend'
     },
     {
-        pic:dude,title:'Dude Portfilio', desc:'A portfolio website for Dude Elvis still in production',demo: 'jdfgdghgggh',
-        githublink:'dssgsdgfjhjhjsjh',category:'backend'
+        pic:hotelhub,title:'Hotel Hub', desc:'UI design for hotel booking website. The website allows users to search hotels in their area and book depending on the number of nights they spend.',demo: 'https://www.figma.com/file/d9nZEVERHh9SRvuZSJ5aUF/Hotel-Hub?node-id=0%3A1&t=M3X6JTGVbdh6MID0-0',
+        githublink:'https://github.com/Andy3643/hotelhub',category:'ux'
+    },
+    {
+        pic:beauty,title:'Beaucoup E-commerce', desc:'E-commerce has become a requirement for most businesses. UI was built in Figma.',demo: 'https://andybeaucoup.herokuapp.com/',
+        githublink:'https://github.com/Andy3643/Beaucoup',category:'backend'
+    },
+    {
+        pic:beauty,title:'Beaucoup E-commerce', desc:'E-commerce has become a requirement for most businesses. UI was built in Figma.',demo: 'https://www.figma.com/file/ibj1UwmfIfOJCJToiow7tU/Beacoup?node-id=0%3A1&t=PBDUlc1hYTf9o7He-0',
+        githublink:'https://github.com/Andy3643/Beaucoup',category:'ux'
+    },
+    {
+        pic:moringa,title:'Moringa Project Manager', desc:'Moringa project manager allows students to upload their coding projects for easy management and tracking.',demo: 'https://www.figma.com/file/1jj9XWOr0ZqNK817pEsGSd/Project-Tracker?t=M3X6JTGVbdh6MID0-0',
+        githublink:'https://www.figma.com/file/1jj9XWOr0ZqNK817pEsGSd/Project-Tracker?t=M3X6JTGVbdh6MID0-0',category:'ux'
     }
 
  ]
