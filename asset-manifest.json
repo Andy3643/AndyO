@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AndyO/static/css/main.669154b7.css",
+    "main.css": "/AndyO/static/css/main.fbc06769.css",
     "main.js": "/AndyO/static/js/main.babb2b67.js",
     "static/media/showmax.png": "/AndyO/static/media/showmax.6b8672e3076952c055fd.png",
     "static/media/Andy Opote resume.pdf": "/AndyO/static/media/Andy Opote resume.e0a6928a831fe2af8cc5.pdf",
@@ -14,11 +14,11 @@
     "static/media/bnw.jpg": "/AndyO/static/media/bnw.eb9b82e61f61656a1b72.jpg",
     "static/media/logo.jpg": "/AndyO/static/media/logo.8e889d1a5ac3b0cbddc0.jpg",
     "index.html": "/AndyO/index.html",
-    "main.669154b7.css.map": "/AndyO/static/css/main.669154b7.css.map",
+    "main.fbc06769.css.map": "/AndyO/static/css/main.fbc06769.css.map",
     "main.babb2b67.js.map": "/AndyO/static/js/main.babb2b67.js.map"
   },
   "entrypoints": [
-    "static/css/main.669154b7.css",
+    "static/css/main.fbc06769.css",
     "static/js/main.babb2b67.js"
   ]
 }
