@@ -13,7 +13,7 @@ const Portfolio = () => {
     }
     
   return (
-    <Fade bottom>
+
     <section id='portfolio'>
       <div className="container portfolio__container">
           <div className='Portfolio__header'>
@@ -57,7 +57,7 @@ const Portfolio = () => {
           </div>
       </div>
     </section>
-    </Fade>
+
   )
 }
 
