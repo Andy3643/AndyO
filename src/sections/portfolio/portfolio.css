@@ -30,8 +30,11 @@
 .display-portfolio{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 3rem;
+    grid-gap: 3rem;
+    padding: 0;
+    margin: 0;
 }
+
 .display-portfolio img{
     width: 100%;
 }
@@ -51,7 +54,9 @@
     .display-portfolio{
         display: grid;
         grid-template-columns: 1fr;
-        
+        grid-gap: 3rem;
+        padding: 0;
+        margin: 0;
     }
     .header__buttons-phone{
         display: block;
